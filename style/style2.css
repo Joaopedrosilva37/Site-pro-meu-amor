@@ -1,5 +1,5 @@
 body {
-    background-color: #ffe6f0;
+    background-color: #e02972;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,8 @@ body {
     height: 100vh;
     text-align: center;
   }
+  html{ background:#e02972; }
+
   h1 {
     color: #ff3399;
     font-size: 2.5em;
@@ -40,3 +42,4 @@ body {
     background-color: #ff66b2;
     color: #f7f7f7;
   }
+  
