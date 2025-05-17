@@ -65,3 +65,42 @@
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
+
+   /* Estilos para o botão */
+   .botao {
+    background-color: #db14b0; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Faz o botão se comportar como um link */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+}
+
+/* Estilo ao passar o mouse */
+.botao:hover {
+    background-color: #d31323; /* Cor mais escura ao passar o mouse */
+}
+.mensagem-amor {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #d31323;
+  font-weight: bold;
+  text-align: center;
+}
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  filter: brightness(1.1);
+}
